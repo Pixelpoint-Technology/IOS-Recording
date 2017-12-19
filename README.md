@@ -4,9 +4,9 @@ It's a simple example of recording the video and the save it locally in document
 
 # Requirements
 
-IOS 8.0+
-XCode 9.0+
-Swift 4.0 +
+ - IOS 8.0+
+ - XCode 9.0+
+ - Swift 4.0 +
 
 # Quick Guide
 
