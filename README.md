@@ -12,6 +12,8 @@ Swift 4.0 +
 
 In this example we have use the simple CollectionView for display the recorded video and also used the coredata for saving the video name for getting the list of saved video from document directory.
 
+![img_5856 png](https://user-images.githubusercontent.com/34330116/34153070-c3c7cb9a-e4d6-11e7-9ae7-5f7cba99574d.png)
+
 Created the Common class from common method and document directry method of getting and saving videos.
 
 /////////////  Gettting directory common path ///////
@@ -97,7 +99,10 @@ Created the Common class from common method and document directry method of gett
         self.navigationController?.popViewController(animated: true)
     }
     
-    For playing the saved video we have used the AVPlayerViewController 
+    For playing the saved video we have used the AVPlayerViewController.
+    
+    
+![img_5857 png](https://user-images.githubusercontent.com/34330116/34153226-4a90ae3a-e4d7-11e7-807b-1d5a6f743b14.png)
     
     let player = AVPlayer(url: videoUrl)
         let playerViewController = AVPlayerViewController()
