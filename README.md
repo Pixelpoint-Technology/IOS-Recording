@@ -97,6 +97,15 @@ Created the Common class from common method and document directry method of gett
         self.navigationController?.popViewController(animated: true)
     }
     
+    For playing the saved video we have used the AVPlayerViewController 
+    
+    let player = AVPlayer(url: videoUrl)
+        let playerViewController = AVPlayerViewController()
+        playerViewController.player = player
+        self.present(playerViewController, animated: true) {
+            playerViewController.player!.play()
+        }
+    
     
     # Collaboration
     
