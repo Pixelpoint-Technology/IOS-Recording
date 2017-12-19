@@ -111,7 +111,6 @@ Created the Common class from common method and document directry method of gett
             playerViewController.player!.play()
         }
     
-    
     # Collaboration
     
     Feel free to collaborate with ideas, issues and pull requests.
